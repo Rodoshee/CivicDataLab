@@ -1,0 +1,33 @@
+---
+title: "Calculation Details"
+author: "Rodoshee Das"
+date: "6/20/2022"
+output: pdf_document
+---
+
+## 1) Calculate the share of expenditure on school education incurred by various departments/ministries.
+ 
+Major Head Codes: Expenditure revenue account 2202 – General Education and 2203 technical education.
+I couldn’t take Expenditure capital account 4202 as it includes sports, arts, culture (capital outlays are an important part of capital expenditure as it usually takes into regard the long term investments like acquiring a school building, buying laboratory equipment, etc.). I couldn’t take 2210 (medical and public health) which contained minor head 109 – school health scheme.
+
+There was no key in the CGA document/meta document regarding grant number and no minor heads column in the data given. So I needed to do away with them.
+
+## 2) Estimate the share of capital expenditure.
+Major heads starting with first digits as 4 or 5 are capital expenditures.
+
+## 3) Using projected population for each of the years under consideration; estimate the per-capita expenditure on school education in the state and each district.
+
+Projected Populations: 
+2017 - 221073168
+2018 - 224571834
+2019 - 228054788
+2020 - 231521022
+
+Source: https://www.census2011.co.in/census/state/uttar+pradesh.html
+
+## 4) Rank the districts based on utilization of allotted funds of revenue expenditure and capital expenditure (separately).
+
+Major heads starting with first digits as 2 or 3 are revenue expenditures.
+
+
+
