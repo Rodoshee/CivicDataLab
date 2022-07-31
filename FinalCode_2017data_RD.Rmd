@@ -9,7 +9,15 @@ knit: (function(input_file, encoding) {
       
 author: "Rodoshee Das"
 date: "6/20/2022"
-output: html_document
+      output:
+  html_document: 
+    code_folding: hide
+    anchor_sections: FALSE
+    toc: yes
+    df_print: tibble
+  pdf_document: default
+  word_document: default
+     
 ---
 
 ```{r setup, include=FALSE}
