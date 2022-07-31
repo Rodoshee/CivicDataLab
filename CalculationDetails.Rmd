@@ -1,5 +1,12 @@
 ---
 title: "Calculation Details"
+
+knit: (function(input_file, encoding) {
+    out_dir <- 'docs';
+    rmarkdown::render(input_file,
+      encoding=encoding,
+      output_file=file.path(dirname(input_file), out_dir, 'index.html'))})
+      
 author: "Rodoshee Das"
 date: "6/20/2022"
 output: pdf_document
